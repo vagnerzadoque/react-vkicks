@@ -14,7 +14,7 @@
   "scripts": {
     "dev": "vite",
     "vitebuild": "tsc && vite build",
-    "publish:canary": "npm version prerelease --preid=canary && npm publish --tag canary",
+    "publish:canary": "npm version prerelease --preid=canary && npm publish --public --tag canary",
     "build": "tsc && rollup -c",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
