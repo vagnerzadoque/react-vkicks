@@ -7,7 +7,7 @@ type IconProps = {
 
 export const Icon: React.FC<IconProps> = ({ iconName, color }) => {
   // Caminho dinâmico baseado no nome do ícone
-  const SvgIcon = React.lazy(() => import(`./assets/icons/${iconName}.svg`));
+  const SvgIcon = React.lazy(() => import(`../../assets/svg/${iconName}.svg`));
 
   // Importa e exibe o ícone como imagem
   return <SvgIcon style={{ color }} />;
