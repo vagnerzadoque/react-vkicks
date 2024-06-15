@@ -34,10 +34,14 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
+    "@naturacosmeticos/natds-icons": "^1.25.1",
+    "@naturacosmeticos/natds-themes": "^0.75.1",
     "@types/react": "^18.3.2",
     "@types/react-dom": "^18.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-jss": "^10.10.0",
+    "styled-components": "^6.1.11",
     "tslib": "^2.6.2"
   }
 }
